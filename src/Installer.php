@@ -58,14 +58,15 @@ class Installer extends LibraryInstaller
         }
     }
 
-
     public static function getThemeNameForPackage(PackageInterface $package)
     {
-        $packageName = $package->getPrettyName();
-        $packageName = str_replace('istvan/', '', $packageName);
+        // mindig csak a package nevet használjuk, vendor nélkül
+        $packageName = explode('/', $package->getPrettyName())[1];
 
+        // kebab-case → PascalCase
         $themeName = str_replace('-', ' ', $packageName);
         $themeName = ucwords($themeName);
+
         return str_replace(' ', '', $themeName);
     }
 
