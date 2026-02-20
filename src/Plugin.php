@@ -1,6 +1,6 @@
 <?php
 
-namespace FocusCMS\ComposerFocusThemeInstaller;
+namespace FocusCMS\ComposerThemeInstaller;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
