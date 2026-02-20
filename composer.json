@@ -1,5 +1,5 @@
 {
-    "name": "istvan86/composer-focus-theme-installer",
+    "name": "focus-cms/composer-focus-theme-installer",
     "type": "composer-plugin",
     "description": "A custom Composer installer for focus themes.",
     "require": {
