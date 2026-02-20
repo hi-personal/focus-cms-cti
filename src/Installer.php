@@ -1,6 +1,6 @@
 <?php
 
-namespace Istvan\ComposerFocusThemeInstaller;
+namespace FocusCMS\ComposerFocusThemeInstaller;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
