@@ -2,9 +2,6 @@
     "name": "focus-cms/composer-focus-theme-installer",
     "description": "Composer installer plugin for Focus CMS themes.",
     "type": "composer-plugin",
-
-    "version": "1.0.2",
-
     "license": "MIT",
 
     "authors": [
