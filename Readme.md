@@ -4,4 +4,4 @@
 
 **Szerző:** Hatala Istvan
 
-**Weboldal:** https://focuscms.hatalaistvan.hu
+**Weboldal:** https://focuscms.infokonnyeden.hu
